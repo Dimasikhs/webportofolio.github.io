@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    min-height:1967px;
+}
+
+.navbar-nav .hiro {
+    display: flex;
+    z-index: 99999;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    position: fixed;
+    background-color: #ffff;
+    width: 100%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav h1 {
+    font-weight: 800;
+    padding: 0 10%;
+    font-size: 1.7rem;
+}
+
+.navbar-nav .fitur {
+    gap: 10%;
+    padding: 0 15%;
+    display: flex;
+    
+}
+
+.navbar-nav .fitur a {
+  font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    color: black;
+    padding-right: 10%;
+}
+
+/* Section */
+
+.hero {
+height: 596px;
+z-index: -9999;
+display: flex;
+padding: 0 10%;
+align-items: center;
+padding-top: 64px;
+}
+
+.hero .hero1 {
+    width: 50% ;
+    line-height: 40px;
+}
+
+.hero .hero1 h1  {
+    font-weight: 800;
+    font-size: 2rem;
+}
+.hero .hero1 span  {
+    font-weight: 800;
+    font-size: 3rem;
+    color: #55E4E4;
+}
+
+.hero .hero1 p {
+    padding-top: 5px;
+    font-weight: 400;
+    color: black ;
+    line-height: 18px;
+    font-size: 1rem;
+}
+
+.hero .hero1 .svg a svg{
+    padding-top: 5%;
+width: 6%;
+height: 10%;
+}
+
+.hero .img  {
+align-self: center;
+width: 50%;
+
+}
+.hero .img img {
+    width: 81% ;
+    padding-left: 100px;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 100px;
+    bottom: 0;
+    z-index: -100;
+}
+
+.hero .btnn {
+    display: flex;
+    padding-top: 30px;
+    z-index: -9999;
+}
+.hero .btn {
+    background-color: #55E4E4;
+    width: 23%;
+    height: 45px;
+    border-radius: 11px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    align-self: center;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero .hero1 .btn a {
+    font-weight: 700;
+    color: #ffff;
+    padding: 0 34%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+/* ABOUT ME */
+    .A {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 800;
+        padding-top: 77px;
+    }
+    .ab {
+        height: 465px;
+        display: flex;
+        padding: 0 2%;
+        background-color: #e0e0e0;
+        width: 80%;
+        margin: auto;
+        border-radius: 40px;
+        flex-direction: column;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        margin-top: 25px
+    }
+      
+    .ab .pp h1 {
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .ab  .pp > .capt1 , .capt2, .capt3{
+        font-weight: 400;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .ab .pp .buton {
+        display: flex;
+        justify-content: center;
+        background: #da2121;
+        width: 15%;
+        height: 10%;
+        align-items: center;
+        margin: auto;
+        border-radius: 6px;
+        margin-top: 28px;
+    }
+
+    .ab .pp .buton > a{
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+    
+    /* contact */
+    .b {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 800;
+        padding-top: 109px;
+    }
+
+    .contact-us {
+        width: 85%;
+        max-width: 600px;
+        background-color: #eee;
+        margin: auto;
+        padding: 30px 40px;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .form {
+        border: 1px solid #a9a9a9;
+        margin: 7px 0px;
+        padding: 6px 20px;
+        border-radius: 8px;
+    }
+
+    .contact-us label {
+        font-size: 13px;
+        color: #000;
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .form input, .form textarea {
+        width: 100%;
+        font-size: 19px;
+        margin-top: 5px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .button {
+        width: 100%;
+        display: inline-block;
+        background-color: #95c44f;
+        padding: 14px 0px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 8px;
+        cursor: pointer;
+        color: #ffff;
+    }
+
+
+/* mediaqueris */
+
+@media screen and (max-width: 360px) {
+
+    .navbar-nav {
+        font-size: 1rem;
+    }
+    .navbar-nav .hiro .fitur {
+        gap: 1%;
+        padding: 0 9%;
+    }
+    .navbar-nav .hiro {
+        height: 47px;
+    }
+    .navbar-nav .hiro > h1{
+    font-size: 0.7rem;
+    padding: 18px;
+    }
+
+    .navbar-nav .fitur a{
+    font-size: 0.7rem;
+
+    }
+
+    /* Home */
+    .hero {
+        display: flex;
+        flex-direction:column-reverse ;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .hero .hero1 {
+        width: 100%;
+        padding-bottom: 100px;
+        line-height: 28px;
+        position: relative;
+        bottom: 42px;
+    }
+    .hero .hero1 h1 {
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align: center;
+    }
+
+    
+    .hero .hero1 span {
+        font-size: 1.5rem;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .hero .img {
+        margin-top: 0;
+        height: 28%;
+        position: relative;
+        bottom: 75px;
+    }
+
+    .hero .img a {
+        margin: auto;
+    }
+    .hero .img img {
+        padding: 0;
+        width: 86%;
+        right: 50px;
+        left: 7px;
+        bottom: 50px;
+        position: relative;
+        top: 59px;
+    }
+    .hero .hero1 p {
+        text-align: center;
+        font-weight: 400;
+        color: black ;
+        line-height: 18px;
+        padding: 0 6%;
+        font-size: 0.8rem;
+        position: inherit;
+    }
+
+    .hero .hero1 .svg {
+      margin: auto;
+      padding-left: 41%;
+    }
+    .hero .hero1 .svg a svg{
+    padding-top: 4%;
+    width: 12%;
+    height: 66%;
+    position: relative;
+    right: 20px;
+    }
+
+    .hero .btnn {
+        display: flex;
+        padding-top: 0;
+        justify-content: center;
+        padding-top: 14px;
+    }
+
+    .hero .btn {
+        background-color: #55E4E4;
+        width: 25%;
+        height: 31px;
+        border-radius: 4px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        align-self: center;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    }
+    .hero .hero1 .btn a {
+        font-weight: 600;
+        color: #ffff;
+        padding: 0 34%;
+        font-size: 0.9rem;
+        display: flex1;
+        justify-content: center;
+        padding-top: 0px;
+    }
+/* about me */
+body {
+    min-height: 1748px;
+}
+.A {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    padding-top: 65px;
+}
+.ab {
+    margin-top: 10px;
+}
+.ab  .pp > .capt1 , .capt2, .capt3{
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+.ab .pp h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.ab .pp .buton {
+    display: flex;
+    justify-content: center;
+    background: #da2121;
+    width: 34%;
+    height: 8%;
+    align-items: center;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.ab .pp .buton > a{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 0.5rem;
+}
+.b {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    padding-top: 40px;
+}
+.contact-us input {
+    font-size: 10px;
+}
+
+} 
+ 
+    
